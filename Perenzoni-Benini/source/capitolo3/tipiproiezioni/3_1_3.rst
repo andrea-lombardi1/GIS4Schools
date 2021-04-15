@@ -1,0 +1,91 @@
+Proiezioni convenzionali
+========================
+
+Dette anche rappresentazioni richiedono per la loro costruzione il ricorso a relazioni matematiche al fine di preservare perfettamente una delle proprietà della carta:
+`equivalenza, equidistanza o conformità. <../proprietaproiezioni/proprietaproiezioni.html>`_ 
+
+Proiezioni pseudocilindriche
+----------------------------
+
+Sono chiamate proiezioni pseudocilindriche perché presentano analogie con le proiezioni cilindriche.
+
+Una caratteristica di queste proiezioni è quella dei paralleli di essere delle rette
+mentre i meridiani degli elementi curvilinei.
+
+Un esempio di proiezione pseudocilindrica è la proiezione di Mollweide: la superficie terrestre è proiettata su di una ellisse avente l’asse maggiore (Equatore) doppio
+dell’asse minore (meridiano di Greenwich).
+
+.. figure:: /immagini/3/proiezionedimollweide.jpg
+   :alt: Proiezione di Mollweide
+   :align: center
+
+   -- Proiezione di Mollweide
+
+Un altro esempio di proiezione pseudocilindrica è la proiezione sinusoidale o di Sanson–Flamsteed. Sulla mappa la lunghezza di ogni parallelo
+è proporzionale al coseno della latitudine.
+
+.. figure:: /immagini/3/proiezionesinusoidale.jpg
+   :alt: Proiezione sinusuidale pseudocilindrica
+   :align: center
+
+   -- Proiezione sinusoidale pseudocilindrica
+
+Proiezioni pseudoconiche
+------------------------
+
+Sono chiamate proiezioni pseudocilindriche perché presentano analogie con le proiezioni coniche.
+
+Proiezioni policoniche
+++++++++++++++++++++++
+
+Le proiezioni policoniche si riferiscono a quelle proiezioni i cui paralleli sono tutti archi circolari non concentrici, ad eccezione dell'equatore che è dritto,
+con i centri dei paralleli giacenti lungo l'asse centrale.
+
+.. figure:: /immagini/3/proiezionepoliconica.jpg
+   :alt: Proiezione policonica
+   :align: center
+
+   -- Esempio di proiezione policonica
+
+.. figure:: /immagini/3/proiezionevandergrinten.jpg
+   :alt: Proiezione policonica
+   :align: center
+
+   -- Esempio di proiezione policonica
+
+Proiezioni poliedriche/policentriche
+++++++++++++++++++++++++++++++++++++
+
+La proiezione poliedrica, detta anche policentrica, si ottiene immaginando di avvolgere la Terra con un poliedro avente un elevato numero di facce,
+ognuna delle quali è tangente ad una piccola porzione della superficie terrestre: in tal modo ogni maglia (trapezoidale) del reticolato è indipendente
+da quelle vicine ed ha un piano di proiezione proprio. Le deformazioni vengono distribuite alla periferia di ogni maglia, pertanto sono di minore rilevanza.
+
+.. figure:: /immagini/3/proiezionedifuller.png
+   :alt: Proiezione poliedriche
+   :align: center
+
+   -- Proiezione di Fuller
+
+.. figure:: /immagini/3/planisferodymaxion.gif
+   :alt: Animazione della costruzione di una proiezione poliedrica
+   :align: center
+
+   -- Animazione della costruzione di una proiezione poliedrica con l'uso di un planisfero Dymaxion
+
+Proiezioni interrotte/discontinue
+---------------------------------
+
+Solitamente consistono in proiezioni pseudocilindriche eseguite con accorgimenti particolari, in modo da ottenere in planisfero una buona rappresentazione dei continenti.
+Per ciascuno di questi si disegna un reticolato geografico indipendente: al posto di un meridiano centrale unico se ne sceglie uno per ogni continente ed in base ad esso
+si tracciano a sinistra e a destra gli altri meridiani, che formano così altrettanti fusi;
+la continuità del planisfero viene interrotta in corrispondenza degli oceani (il contrario se si vuole una buona
+rappresentazione degli oceani). In tal modo si ottiene l'equivalenza e contemporaneamente si riducono le deformazioni, perché si utilizza soltanto la parte
+del reticolato che meno altera le forme.
+
+Una proiezione interrotta di questo genere è la proiezione di Goode-Philip
+
+.. figure:: /immagini/3/proiezioniinterrotte.jpg
+   :alt: Proiezione di Goode-Philip
+   :align: center
+
+   -- Proiezione di Goode-Philip

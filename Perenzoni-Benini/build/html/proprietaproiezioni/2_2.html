@@ -1,0 +1,299 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>2.2. Proiezioni equidistanti &mdash; Proiezioni cartografiche 0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="2.3. Proiezioni conformi" href="2_3.html" />
+    <link rel="prev" title="2.1. Proiezioni equivalenti" href="2_1.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Proiezioni cartografiche
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contenuti</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../capitolo3.html">1. Documentazione sulle proiezioni cartografiche</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../tipiproiezioni/tipiproiezioni.html">1. Tipi di proiezioni cartografiche</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="proprietaproiezioni.html">2. Tipi di proiezioni cartografiche per proprietà metrica conservata</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="2_1.html">2.1. Proiezioni equivalenti</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">2.2. Proiezioni equidistanti</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#ambiti-d-uso">2.2.1. Ambiti d’uso</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#esempi-di-proiezioni-equidistanti">2.2.2. Esempi di proiezioni equidistanti</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="2_3.html">2.3. Proiezioni conformi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="2_4.html">2.4. Proiezione gnomonica</a></li>
+<li class="toctree-l3"><a class="reference internal" href="2_5.html">2.5. Proiezioni retroazimutali</a></li>
+<li class="toctree-l3"><a class="reference internal" href="2_6.html">2.6. Proiezioni compromesso</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Proiezioni cartografiche</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../capitolo3.html"><span class="section-number">1. </span>Documentazione sulle proiezioni cartografiche</a> &raquo;</li>
+        
+          <li><a href="proprietaproiezioni.html"><span class="section-number">2. </span>Tipi di proiezioni cartografiche per proprietà metrica conservata</a> &raquo;</li>
+        
+      <li><span class="section-number">2.2. </span>Proiezioni equidistanti</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/proprietaproiezioni/2_2.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="proiezioni-equidistanti">
+<h1><span class="section-number">2.2. </span>Proiezioni equidistanti<a class="headerlink" href="#proiezioni-equidistanti" title="Permalink to this headline">¶</a></h1>
+<p>Le proiezioni equidistanti conservano la misura della distanza di tutti i punti sulla mappa da uno o due “punti speciali” o una linea. Per esempio, una proiezione equidistante con punto speciale A
+avrà il rapporto fra la distanza A-B e la distanza A-C uguale a quello nel mondo reale. Per conservare le distanze, le proiezioni equidistanti distorcono le forme.</p>
+<div class="section" id="ambiti-d-uso">
+<h2><span class="section-number">2.2.1. </span>Ambiti d’uso<a class="headerlink" href="#ambiti-d-uso" title="Permalink to this headline">¶</a></h2>
+<p>Le proiezioni equidistanti vengono, ovviamente, usate in applicazioni in cui è importante mantenere il rapporto delle distanze da un punto, come in comunicazione via radio da punto a punto, oppure il raggio di missili da un certo punto.</p>
+<div class="figure align-center" id="id2">
+<img alt="Mappa del raggio nei missili nucleari Nordcoreani" src="../_images/missiliequidistante.png" />
+<p class="caption"><span class="caption-number">Fig. 2.10 </span><span class="caption-text">– Questa mappa del raggio dei missili nucleari della Corea del nord usa la proiezione azimutale equidistante</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="esempi-di-proiezioni-equidistanti">
+<h2><span class="section-number">2.2.2. </span>Esempi di proiezioni equidistanti<a class="headerlink" href="#esempi-di-proiezioni-equidistanti" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="proiezione-azimutale-equivalente">
+<h3><span class="section-number">2.2.2.1. </span>Proiezione azimutale equivalente<a class="headerlink" href="#proiezione-azimutale-equivalente" title="Permalink to this headline">¶</a></h3>
+<p>Non si sanno le origini della proiezione azimutale. Il primo scritto, del matematico iraniano Al-Biruni, che la documenta risale all’undicesimo secolo (1001-1100), ma si pensa che anche gli antichi egizi usassero questa proiezione per mappare le stelle.
+Si tratta di una proiezione azimutale (come indica il nome), e viene usata per planisferi delle stelle e per rappresentare distanze da un punto a piacere del globo, vito che la mappa può essere centrata su un qualsiasi punto della Terra.
+Oltretutto, tutti i punti sulla mappa conservano la giusta direzione (azimut) dal centro.
+La proiezione azimutale equidistante è anche la proiezione utilizzata per il logo delle Nazioni Unite (<a class="reference internal" href="#id1"><span class="std std-numref">Fig. 2.13</span></a>).</p>
+<div class="figure align-center" id="id3">
+<img alt="Mappa della Terra con la proiezione azimutale equidistante" src="../_images/proiezioneazimutaleequidistante.jpg" />
+<p class="caption"><span class="caption-number">Fig. 2.11 </span><span class="caption-text">– Mappa della Terra creata con la proiezione azimutale equidistante centrata al Polo Nord</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id4">
+<img alt="Distorsione della proiezione azimutale equidistante" src="../_images/distorsioneazimutaleequidistante.png" />
+<p class="caption"><span class="caption-number">Fig. 2.12 </span><span class="caption-text">– La proiezione azimutale equidistante con l’Indicatore di distorsione di Tissot applicato, che mostra la grande distorsione vicino ai bordi della mappa</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id5">
+<span id="id1"></span><img alt="Logo delle Nazioni Unite" src="../_images/nazioniunite.png" />
+<p class="caption"><span class="caption-number">Fig. 2.13 </span><span class="caption-text">– Il logo delle Nezioni Unite contiene una mappa fatta con una proiezione azimutale equidistante polare</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="proiezione-equirettangolare">
+<h3><span class="section-number">2.2.2.2. </span>Proiezione equirettangolare<a class="headerlink" href="#proiezione-equirettangolare" title="Permalink to this headline">¶</a></h3>
+<p>L’invenzione della proiezione equirettangolare viene attribuita a Marino di Tiro, geografo greco che la cerò nel 100 d.C.. La proiezione mappa i meridiani e paralleli come linee dritte con spaziatura uguale, creando così una griglia di quadrati.
+Per proiettare la mappa ci si basa su due paralleli standard, i quali sono tangenti alla Terra e dove non si trova alcuna distorsione, mentre tra i due paralleli scelti sarà compressa, e al di fuori sarà espansa.
+Questa proiezione equidistante conserva le distanze lungo i meridiani della mappa, ma solo quando si usa come parallelo di riferimento l’equatore, dove quindi la proiezione è tangenete alla Terra e non secante.
+Questa condizione speciale si chiama “Plate Carrée” (quadrato piatto in francese). Dato che la proiezione non è ne equivalente ne conforme, trova la maggior parte dei suoi utilizzi nelle mappe tematiche, e la plate carrée è anche
+usata per rappresentare dataset raster.</p>
+<div class="figure align-center" id="id6">
+<img alt="Mappa della Terra con la proiezione equirettangolare" src="../_images/proiezioneequirettangolare.jpg" />
+<p class="caption"><span class="caption-number">Fig. 2.14 </span><span class="caption-text">– Mappa della Terra creata con la proiezione equirettangolare, usando come parallelo di riferimento l’Equatore (quindi questa mappa è una plate carrée)</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id7">
+<img alt="Distorsione della proiezione equirettangolare" src="../_images/distorsioneequirettangolare.png" />
+<p class="caption"><span class="caption-number">Fig. 2.15 </span><span class="caption-text">– La proiezione equirettangolare plate carrée con l’Indicatore di distorsione di Tissot applicato, che mostra la distorsione introdotta dalla proiezione.</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="proiezione-equidistante-a-due-punti">
+<h3><span class="section-number">2.2.2.3. </span>Proiezione equidistante a due punti<a class="headerlink" href="#proiezione-equidistante-a-due-punti" title="Permalink to this headline">¶</a></h3>
+<p>Questa proiezione è stata inventata da Hans Maurer nel 1919, ed è una generalizzazione della proiezione azimutale equidistante. In questa proiezione, il creatore della mappa può scegliere due punti qualsiasi
+da usare come riferimento: tutte le distanze da quei due punti saranno consevate. questa proiezione viene usata dalla National Geographic Society per tutte le loro mappe del continente Asiatico dal 1959, ma in questo caso
+lo scopo è quello di minimizzare la distorsione del continente invece che mantenere le distanze. Infatti, questa proiezione riesce a mentenere poca distorsione nei dintorni dei due punti riferimento.</p>
+<div class="figure align-center" id="id8">
+<img alt="Mappa dell'Eurasia con la proiezione equidistante a due punti" src="../_images/proiezioneequidistante2punti.jpg" />
+<p class="caption"><span class="caption-number">Fig. 2.16 </span><span class="caption-text">– Mappa del continente Eurasiatico creata con la proiezione equidistante a due punti, usnaod come punti di riferimento (45°N, 40°E) e (30°N, 110°E)</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id9">
+<img alt="Distorsione della proiezione equidistante a due punti" src="../_images/distorsioneequidistante2punti.png" />
+<p class="caption"><span class="caption-number">Fig. 2.17 </span><span class="caption-text">– La proiezione equidistante a due punti con l’Indicatore di distorsione di Tissot applicato, che mostra come la proiezione minimizzi la distorsione vicino ai punti (i quali sono Roma e Luoyang)</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="altre-proiezioni-equidistanti">
+<h3><span class="section-number">2.2.2.4. </span>Altre proiezioni equidistanti<a class="headerlink" href="#altre-proiezioni-equidistanti" title="Permalink to this headline">¶</a></h3>
+<p>Altre proiezioni equidistanti sono:</p>
+<ul class="simple">
+<li><p>Proiezione conica equidistante</p></li>
+<li><p>Proiezione di Werner</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="2_3.html" class="btn btn-neutral float-right" title="2.3. Proiezioni conformi" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="2_1.html" class="btn btn-neutral float-left" title="2.1. Proiezioni equivalenti" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Giuseppe Benini &amp; Pietro Perenzoni.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

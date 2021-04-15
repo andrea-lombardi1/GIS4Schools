@@ -1,0 +1,74 @@
+Proiezioni retroazimutali
+=========================
+
+Le proiezioni retroazimutali sono proiezioni che conservano la direzione (azimut): in pratica, la direzione fra un punto qualsiasi A ed un punto fisso B sulla mappa è uguale alla direzione fra A e B nel mondo reale.
+Il punto fisso si trova al centro della mappa, e viene deciso dal creatore della mappa. Per conservare la direzione, le proiezioni retroazimutali normalmente distorcono molto le forme e area.
+
+Ambiti d'uso
+------------
+
+Le proiezioni retoazimutali sono poche e non molto diffuse, quindi gli usi variano da proiezione a proiezione.
+
+Esempi di proiezioni retroazimutali
+-----------------------------------
+
+Proiezione di Littrow
++++++++++++++++++++++
+
+Questa proiezione è l'unica proiezione retroazimutale conforme. Inventata nel 1883 dall'austriaco Joseph J. von Littrow, conserva le direzioni dal punto centrale della mappa.
+Reinventata nel 1890 da patrick Weir della British Merchant Navy, iniziò ad essere più frequentemente utilizzata nella navigazione grazie alle sue proprietà.
+
+.. figure:: /immagini/3/proiezionelittrow.jpg
+   :alt: Mappa di una parte della Terra con la proiezione di Littrow
+   :align: center
+
+   -- Mappa di parte della Terra creata con la proiezione di Littrow centrata a (0°N, 0°E)
+
+.. figure:: /immagini/3/distorsionelittrow.png
+   :alt: Distorsione della proiezione di Littrow
+   :align: center
+
+   -- La proiezione di Littrow con l'Indicatore di distorsione di Tissot applicato, che mostra come la proiezione sia conforme
+
+Proiezione retroazimutale di Craig
+++++++++++++++++++++++++++++++++++
+
+Inventata nel 1909 dal cartografo scozzese James Ireland Craig, questa proiezione retroazimutale è anche conosciuta con il nome di proiezione di Mecca, visto che Craig, che lavorava in Egitto, aveva deciso di creare 
+questa proiezione per aiutare le persone di fede islamica a trovare la direzione per raggiungere la Kaaba. Come le altre proiezioni retroazimutali, le forme e aree vengono molto distorte per conservare la direzione.
+
+.. figure:: /immagini/3/proiezionecraig.jpg
+   :alt: Mappa della Terra con la proiezione di Craig
+   :align: center
+
+   -- Mappa della Terra creata con la proiezione retroazimutale di Craig centrata su Mecca
+
+.. figure:: /immagini/3/distorsionecraig.png
+   :alt: Distorsione della proiezione di Craig
+   :align: center
+
+   -- La proiezione retroazimutale di Craig con l'Indicatore di distorsione di Tissot applicato, che mostra la grande distorsione ai bordi della mappa, e anche come la mappa cambia forma in base al punto su cui è centrata (in questo caso, 50°N, 0°E)
+
+Proiezione retroazimutale di Hammer
++++++++++++++++++++++++++++++++++++
+
+Questa proiezione, oltre ad essere retroazimutale, è anche equidistante dal punto centrale della proiezione. Inventata nel 1910 da Ernst Heinrich Hammer, i due emisferi (fronte e retro), se provati ad essere messere in un unica mappa, 
+si sovrappongono, quindi o si rappresentano in due mappe diverse, o si ruota uno dei due emisferi di 180°: in quest'ultimo modo, oltre a rimuovere la sovrapposizione, si crea un nuovo problema: ora che uno dei due emisferi è stato ruotato, 
+le due direzioni devono essere corrette.
+
+.. figure:: /immagini/3/proiezionehammer.jpg
+   :alt: Mappa della Terra in due parti con la proiezione di Hammer
+   :align: center
+
+   -- Mappe dell'emisfero anteriore e posteriore della Terra create con la proiezione retroazimutale di Hammer centrata a (45°N, 90°W)
+
+.. figure:: /immagini/3/proiezionehammercompleta.jpg
+   :alt: Mappa completa della Terra con la proiezione di Hammer
+   :align: center
+
+   -- Mappa completa della Terra creata con la proiezione retroazimutale di Hammer centrata a (45°N, 90°W). L'emisfero anteriore è stato ruotato di 180°
+
+.. figure:: /immagini/3/distorsionehammer.png
+   :alt: Distorsione della proiezione di Hammer
+   :align: center
+
+   -- La proiezione retroazimutale di Hammer con l'Indicatore di distorsione di Tissot applicato. La proiezione è centrata su Mecca e l'emisfero posteriore è stato ruotato di 180°

@@ -1,0 +1,89 @@
+Proiezioni compromesso
+======================
+
+Le proiezioni compromesso non conservano alcuna proprietà metrica: invece, cercano di trovare, come dice il nome, un compromesso fra le varie proprietà, per rendere la mappa piacevole da osservare.
+La maggior parte delle proiezioni compromesso sono fatte per mostrare l'intero globo invece che solo una parte.
+
+Ambiti d'uso
+------------
+
+Le proiezioni compromesso, visto che non conservano alcuna proprietà metrica, vengono soprattutto usate semplicemente per visualizzare l'intero globo, visto che, la maggior parte delle volte, 
+sono più piacevoli da vedere rispetto alle proiezioni convenzionali.
+
+.. figure:: /immagini/3/mondorobinson.png
+   :alt: Mappa della Terra creata dalla CIA con la proiezione di Robinson
+   :align: center
+
+   -- Mappa della Terra della CIA, datata Febbraio 2021. utilizza la proiezione compromesso di Robinson
+
+
+Esempi di proiezioni compromesso
+--------------------------------
+
+Proiezione di Robinson
+++++++++++++++++++++++
+
+Questa proiezione è stata inventata nel 1963 dal cartografo statunitense Arthur H. Robinson nel 1963 su richiesta della Randy McNally Company, che la ha usata per mappe generali dalla sua creazione in poi.
+Nel 1974 Robinson pubblicò le specifiche della proiezione e la sua costruzione, e nel 1988 la National Geographic Society la iniziò ad usare per le mappe della Terra generali. Molte altre compagnie, dopo la 
+National Geographic, hanno iniziato ad usare la proiezione, anche se in certi casi è stata sostituita dalla Winkel Tripel.
+
+.. figure:: /immagini/3/proiezionerobinson.jpg
+   :alt: Mappa della Terra con la proiezione di Robinson
+   :align: center
+
+   -- Mappa della Terra creata con la proiezione di Robinson
+
+.. figure:: /immagini/3/distorsionerobinson.png
+   :alt: Distorsione della proiezione di Robinson
+   :align: center
+
+   -- La proiezione di Robinson con l'Indicatore di distorsione di Tissot applicato, che mostra come, anche se non conserva alcuna proprietà metrica, la distorsione rimane molto contenuta
+
+Proiezione Winkel Tripel
+++++++++++++++++++++++++
+
+Questa proiezione è stata inventata nel 1921 dal cartografo tedesco Oswald Winkel, ed ha la particolarità di essere la media matematica tra la proiezione equirettangolare e la proiezione di Aitoff. 
+Il nome "Tripel" deriva dall'obbiettivo di Winkel di ridurre tre tipi di distorsione: area, distanza e direzione. La Winkel Tripel è una delle proiezioni con minore distorsione, similmente alle proiezioni Eckert IV e Robinson.
+Dal 1998 ha sostituito la proiezione di Robinson come proiezione usata per mappe generali della Terra dalla National Geographic society.
+
+.. figure:: /immagini/3/proiezionewinkeltripel.jpg
+   :alt: Mappa della Terra con la proiezione Winkel Tripel
+   :align: center
+
+   -- Mappa della Terra creata con la proiezione Winkel Tripel
+
+.. figure:: /immagini/3/distorsionewinkeltripel.png
+   :alt: Distorsione della proiezione Winkel Tripel
+   :align: center
+
+   -- La proiezione Winkel Tripel con l'Indicatore di distorsione di Tissot applicato, che mostra come la distorsione sia abbastanza ridotta, una caratteristica comune delle proiezioni compromesso
+
+Proiezione di Van der Grinten
++++++++++++++++++++++++++++++
+
+Inventata nel 1898 dallo statunitense Alphons J. Van der Grinten, questa proiezione mappa l'intera Terra in un cerchio, mantenendo le forme simili a quelle trovate sulla proiezione di Mercatore, ma riducendo la distorsione.
+In modo simile alla proiezione di Mercatore, la distorsione ai poli è molto alta. Dal 1922 al 1988, è stata la proiezione usata dalla National Geographic Society per le loro mappe della Terra generali. 
+Ad oggi, è stata per la maggior parte sostituita dalla proiezione di Robinson e Winkel Tripel.
+
+.. figure:: /immagini/3/proiezionevandergrinten.jpg
+   :alt: Mappa della Terra con la proiezione di Van der Grinten
+   :align: center
+
+   -- Mappa della Terra creata con la proiezione di Van der Grinten
+
+.. figure:: /immagini/3/distorsionevandergrinten.png
+   :alt: Distorsione della proiezione di Van der Grinten
+   :align: center
+
+   -- La proiezione di Van der Grinten con l'Indicatore di distorsione di Tissot applicato, che mostra come la distorsione aumenti vertiginosamente ai poli
+
+Altre proiezioni compromesso
+++++++++++++++++++++++++++++
+
+- Proiezione Dymaxion di Fuller
+
+- Proiezione AuthaGraph
+
+- Proiezione Wagner VI
+
+- Proiezione a farfalla di Cahill

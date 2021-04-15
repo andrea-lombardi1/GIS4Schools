@@ -1,0 +1,15 @@
+Proiezioni modificate
+=====================
+
+Le proiezioni pure producono molte deformazioni e le carte che ne derivano sono equidistanti solo lungo alcune linee o equivalenti per porzioni limitate.
+Le proiezioni pure possono essere ritoccate per ridurre le deformazioni introdotte nel passaggio dalla sfera terrestre al piano o alla superficie ausiliaria:
+si ottengono così le proiezioni modificate.
+
+La più nota proiezione modificata è la proiezione conforme di Mercatore. Essa deriva da una proiezione cilindrica pura in cui la distanza tra i paralleli viene
+fatta aumentare al crescere della latitudine per evitare lo schiacciamento delle zone polari, al contrario di quanto accade in una proiezione cilindrica pura.
+
+.. figure:: /immagini/proiezioneconformedimercatore.jpg
+   :alt: Proiezione cilindrica centrografica modificata di Mercatore
+   :align: center
+
+   -- Proiezione conforme di Mercatore

@@ -1,0 +1,95 @@
+Proiezioni pure/vere
+====================
+
+Il reticolato geografico viene riportato geometricamente su di una superficie ausiliaria: un piano, un cilindro o un cono.
+
+Le proiezioni pure si suddividono a loro volta in base a 3 criteri: 
+
++ il tipo di superficie su cui viene proiettato il globo terrestre;
+  
++ la posizione della superficie in base alla Terra;
+  
++ la posizione del punto di vista, cioè il punto dal quale partono le rette immaginarie che proiettano la superficie sferica sul piano di proiezione.
+
+Proiezioni prospettiche/azimutali
+---------------------------------
+Viene proiettato un emisfero, o una sua parte, su un piano tangente o secante al globo terrestre.
+La parte di globo terrestre viene proiettata dal punto di vista che può essere posizionato in punti diversi.
+
+Le proiezioni prospettiche sono differenziate in base alla posizione del piano su cui viene riportato il globo e alla posizione del punto di vista.
+
+Posizione del piano tangente
+++++++++++++++++++++++++++++
+
+1. **Proiezioni polari:** il piano è tangente a uno dei due poli.
+
+2. **Proiezioni equatoriali:** il piano è tangente a un punto dell'equatore.
+
+3. **Proiezioni oblique/trasversale:** il piano è tangente a un punto qualsiasi della superficie terrestre.
+
+
+.. figure:: /immagini/3/proiezionipianotangente.png
+   :alt: Tipi di proiezioni prospettiche in base alla posizione del piano tangente 
+   :align: center
+
+   -- Da questa immagine possiamo vedere come le varie posizioni del piano tangente producano tipologie di mappe differenti
+
+   
+Posizione del punto di vista
+++++++++++++++++++++++++++++
+
+1. **Proiezioni centrografiche:** il punto di vista è situato al centro della Terra.
+
+2. **Proiezioni stereografiche:** il punto di vista è situato sulla superficie terrestre.
+
+3. **Proiezioni scenografiche:** il punto di vista è esterno al globo terrestre.
+
+4. **Proiezioni ortografiche:** il punto di vista è situato all'infinito e i raggi di proiezione sono tutti paralleli.
+   
+.. figure:: /immagini/3/proiezionipuntodivista.png
+   :alt: Tipi di proiezioni prospettiche in base alla posizione del punto di vista
+   :align: center
+
+   -- Da questa immagine possiamo vedere come le varie posizioni del punto di vista producano tipologie di mappe differenti
+
+Proiezioni di sviluppo
+----------------------
+
+Il reticolo geografico è proiettato su una superficie ausiliaria costituita da un cilindro oppure da un cono i quali possono avere diversi tipi di contatto con il globo terrestre.
+
+Proiezione cilindrica
++++++++++++++++++++++
+
+I punti della superficie terrestre vengono proiettati dal centro del globo terrestre su un cilindro tangente/secante alla Terra.
+
+.. figure:: /immagini/3/proiezionicilindriche.png
+   :alt: Proiezione del globo terrestre su un cilindro tangente la Terra
+   :align: center
+
+   -- Da questa immagine possiamo vedere un esempio di come la superficie del globo può essere riportata su un cilindro
+
+Proiezione conica
++++++++++++++++++
+
+I punti della superficie terrestre vengono proiettati dal centro del globo terrestre su un cono tangente/secante alla Terra.
+
+.. figure:: /immagini/3/proiezioniconiche.png
+   :alt: Proiezione del globo terrestre su un cono tangente la Terra
+   :align: center
+
+   -- Da questa immagine possiamo vedere un esempio di come la superficie del globo può essere riportata su un cono
+
+Tipo di contatto tra la Terra e un cilindro/cono
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+1. **Proiezioni dirette/normali:** l’asse del cilindro/cono coincide con l’asse di rotazione terrestre.
+
+2. **Proiezioni inverse/trasverse:** l’asse del cilindro/cono giace sul piano equatoriale.
+
+3. **Proiezioni oblique:** l’asse del cilindro/cono ha una inclinazione qualsiasi.
+
+.. figure:: /immagini/3/proiezionicontattocilindrocono.png
+   :alt: Tipi di proiezioni di sviluppo in base al contatto tra la Terra e il cilindro/cono
+   :align: center
+
+   -- Da questa immagine possiamo vedere i tipi di contatto tra il cilindro/cono, piano su cui viene proiettato la superficie terrestre, con la Terra
