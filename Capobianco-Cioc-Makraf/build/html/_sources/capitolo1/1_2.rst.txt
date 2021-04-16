@@ -1,0 +1,6 @@
+.. _1.2:
+
+come scaricarlo
+===============
+
+Qfield è un applicazione disponibile **solo per dispositivi android** ed è facilmente trovabile sul play store
