@@ -33,7 +33,7 @@ Un altro esempio di proiezione pseudocilindrica è la proiezione sinusoidale o d
 Proiezioni pseudoconiche
 ------------------------
 
-Sono chiamate proiezioni pseudocilindriche perché presentano analogie con le proiezioni coniche.
+Sono chiamate proiezioni pseudoconiche perché presentano analogie con le proiezioni coniche.
 
 Proiezioni policoniche
 ++++++++++++++++++++++
