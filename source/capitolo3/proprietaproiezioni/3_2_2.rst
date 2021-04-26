@@ -18,8 +18,8 @@ Le proiezioni equidistanti vengono, ovviamente, usate in applicazioni in cui è 
 Esempi di proiezioni equidistanti
 ---------------------------------
 
-Proiezione azimutale equivalente
-++++++++++++++++++++++++++++++++
+Proiezione azimutale equidistante
++++++++++++++++++++++++++++++++++
 
 Non si sanno le origini della proiezione azimutale. Il primo scritto, del matematico iraniano Al-Biruni, che la documenta risale all'undicesimo secolo (1001-1100), ma si pensa che anche gli antichi egizi usassero questa proiezione per mappare le stelle.
 Si tratta di una proiezione azimutale (come indica il nome), e viene usata per planisferi delle stelle e per rappresentare distanze da un punto a piacere del globo, visto che la mappa può essere centrata su un qualsiasi punto della Terra.
